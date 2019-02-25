@@ -35,7 +35,7 @@ Windows/VR
 |<img width=500/>|<img width=300/>|
 
    [Backlog]: <https://trello.com/b/kfqWhrdm/project-mythe>
-   [Logboek]: <>
+   [Logboek]: <https://docs.google.com/document/d/1Wsb6gyKry_lQSOKj3yD8CEMkXf6jSZTwtZz2uy8n2AQ>
    [GameDesignDoc]: <>
    [RetrospectiveVerslagen]: <>
    [ReviewVerslagen]: <>
