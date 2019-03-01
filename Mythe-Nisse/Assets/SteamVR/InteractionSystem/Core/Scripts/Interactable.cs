@@ -84,6 +84,7 @@ namespace Valve.VR.InteractionSystem
         private void Awake()
         {
             skeletonPoser = GetComponent<SteamVR_Skeleton_Poser>();
+            Physics.IgnoreLayerCollision(10, 9, true);
         }
 
         protected virtual void Start()
