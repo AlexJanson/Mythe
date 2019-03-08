@@ -36,7 +36,7 @@ Windows/VR
 
    [Backlog]: <https://trello.com/b/kfqWhrdm/project-mythe>
    [Logboek]: <https://docs.google.com/document/d/1Wsb6gyKry_lQSOKj3yD8CEMkXf6jSZTwtZz2uy8n2AQ>
-   [GameDesignDoc]: <>
+   [GameDesignDoc]: <https://docs.google.com/presentation/d/11LprcXs38A70jUiI26nzGr5Y77nBShLgdPsIECx5DG8>
    [RetrospectiveVerslagen]: <>
    [ReviewVerslagen]: <>
    [Prototype]: <>
