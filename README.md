@@ -5,7 +5,8 @@ Platform:
 Windows/VR
 
 ### Korte omschrijving van de game
-...
+
+Je bent een kabouter en je moet klusjes klaren voordat de mensen weer thuis zijn.
 
 ---
 #### Producten Werkproces 1
