@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ColorManager : MonoBehaviour
 {   
-
 
     public void SetColorRGBA(GameObject prefab, float r, float g, float b, float a)
     {
@@ -14,7 +11,7 @@ public class ColorManager : MonoBehaviour
     }
 
 
-    public void MixColor(GameObject other,GameObject Object)
+    public void MixColor(GameObject other, GameObject Object)
     {
 
         var otherColor = other.GetComponent<Renderer>().material.color;
@@ -29,6 +26,5 @@ public class ColorManager : MonoBehaviour
         ObjectRender.material.color = new Color(newR, newG, newB, 1f);
 
     }
-
 
 }

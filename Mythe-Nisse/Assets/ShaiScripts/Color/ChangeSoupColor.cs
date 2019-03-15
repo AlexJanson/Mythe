@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ChangeSoupColor : ColorManager
 {
@@ -23,4 +21,5 @@ public class ChangeSoupColor : ColorManager
         }
 
     }
+
 }
