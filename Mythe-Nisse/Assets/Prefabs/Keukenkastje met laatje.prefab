@@ -166,7 +166,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 04aa3260d72afc54b9e0d6257f048371, type: 3}
+  - {fileID: 2100000, guid: 858a444151af69a4d9152966616898b0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -504,7 +504,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 04aa3260d72afc54b9e0d6257f048371, type: 3}
+  - {fileID: 2100000, guid: 858a444151af69a4d9152966616898b0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -534,7 +534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8687942502714762443}
   m_Layer: 0
-  m_Name: Keukenkastje met laatje 1
+  m_Name: Keukenkastje met laatje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -617,7 +617,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 04aa3260d72afc54b9e0d6257f048371, type: 3}
+  - {fileID: 2100000, guid: 858a444151af69a4d9152966616898b0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
