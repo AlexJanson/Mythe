@@ -7,15 +7,13 @@ public class Fire : MonoBehaviour
     private bool isHolding;
     public bool IsHolding { get; set; }
 
-    private float timer;
-    private readonly float maxTimer = 1;
+    private float startTime;
+    private Vector3 startPosition;
 
-    private Rigidbody rb;
     private ParticleSystem fireParticles;
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody>();
         fireParticles = GetComponent<ParticleSystem>();
     }
 
@@ -31,15 +29,26 @@ public class Fire : MonoBehaviour
         em.enabled = false;
     }
 
-    private void OnCollisionStay(Collision other)
+    private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag != "Player")
+        if (other.gameObject.layer == 11)
         {
-            if (isHolding)
-            {
+            startTime = Time.time;
+            startPosition = transform.position;
+        }
 
-            }
-            Extinguish();
+        
+    }
+
+    private void OnCollisionExit(Collision other)
+    {
+        if (other.gameObject.layer == 11)
+        {
+            float endTime = Time.time;
+            Vector3 endPosition = transform.position;
+
+            
+
         }
         
     }
