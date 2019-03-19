@@ -16,13 +16,14 @@
 
 		SubShader
 		{
-			Tags {"Queue" = "Geometry"  "DisableBatching" = "True" }
+			Tags {"Queue" = "Transparent"  "DisableBatching" = "True" "RenderType" = "Transparent" }
 
 					Pass
 			{
-			 Zwrite On
-			 Cull Off // we want the front and back faces
-			 AlphaToMask On // transparency
+			 Zwrite off
+			 Cull Off 
+			 AlphaToMask On
+			 Blend SrcAlpha OneMinusSrcAlpha
 
 			 CGPROGRAM
 
@@ -74,15 +75,15 @@
 			   o.vertex = UnityObjectToClipPos(v.vertex);
 			   o.uv = TRANSFORM_TEX(v.uv, _MainTex);
 			   UNITY_TRANSFER_FOG(o,o.vertex);
-			   // get world position of the vertex
+			   
 			   float3 worldPos = mul(unity_ObjectToWorld, v.vertex.xyz);
-			   // rotate it around XY
+			   
 			   float3 worldPosX = RotateAroundYInDegrees(float4(worldPos,0),360);
-			   // rotate around XZ
+			   
 			   float3 worldPosZ = float3 (worldPosX.y, worldPosX.z, worldPosX.x);
-			   // combine rotations with worldPos, based on sine wave from script
+			   
 			   float3 worldPosAdjusted = worldPos + (worldPosX  * _WobbleX) + (worldPosZ* _WobbleZ);
-			   // how high up the liquid is
+			   
 			   o.fillEdge = worldPosAdjusted.y + _FillAmount;
 
 			   o.viewDir = normalize(ObjSpaceViewDir(v.vertex));
@@ -92,30 +93,25 @@
 
 			fixed4 frag(v2f i, fixed facing : VFACE) : SV_Target
 			{
-				// sample the texture
 				fixed4 col = tex2D(_MainTex, i.uv) * _Tint;
-			// apply fog
-			UNITY_APPLY_FOG(i.fogCoord, col);
+				// apply fog
+				UNITY_APPLY_FOG(i.fogCoord, col);
 
-			// rim light
-			float dotProduct = 1 - pow(dot(i.normal, i.viewDir), _RimPower);
-			float4 RimResult = smoothstep(0.5, 1.0, dotProduct);
-			RimResult *= _RimColor;
+				float dotProduct = 1 - pow(dot(i.normal, i.viewDir), _RimPower);
+				float4 RimResult = smoothstep(0.5, 1.0, dotProduct);
+				RimResult *= _RimColor;
 
-			// foam edge
-			float4 foam = (step(i.fillEdge, 0.5) - step(i.fillEdge, (0.5 - _Rim)));
-			float4 foamColored = foam * (_FoamColor * 0.9);
-			// rest of the liquid
-			float4 result = step(i.fillEdge, 0.5) - foam;
-			float4 resultColored = result * col;
-			// both together, with the texture
-			float4 finalResult = resultColored + foamColored;
-			finalResult.rgb += RimResult;
+				float4 foam = (step(i.fillEdge, 0.5) - step(i.fillEdge, (0.5 - _Rim)));
+				float4 foamColored = foam * (_FoamColor * 0.9);
 
-			// color of backfaces/ top
-			float4 topColor = _TopColor * (foam + result);
-			//VFACE returns positive for front facing, negative for backfacing
-			return facing > 0 ? finalResult : topColor;
+				float4 result = step(i.fillEdge, 0.5) - foam;
+				float4 resultColored = result * col;
+
+				float4 finalResult = resultColored + foamColored;
+				finalResult.rgb += RimResult;
+
+				float4 topColor = _TopColor * (foam + result);
+				return facing > 0 ? finalResult : topColor;
 
 		  }
 		  ENDCG
