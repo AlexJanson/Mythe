@@ -21,7 +21,7 @@
 					Pass
 			{
 			 Zwrite off
-			 Cull Off 
+			 Cull off 
 			 AlphaToMask On
 			 Blend SrcAlpha OneMinusSrcAlpha
 
@@ -102,6 +102,7 @@
 				RimResult *= _RimColor;
 
 				float4 foam = (step(i.fillEdge, 0.5) - step(i.fillEdge, (0.5 - _Rim)));
+				//float4 foamColored = foam * col;
 				float4 foamColored = foam * (_FoamColor * 0.9);
 
 				float4 result = step(i.fillEdge, 0.5) - foam;
@@ -110,8 +111,10 @@
 				float4 finalResult = resultColored + foamColored;
 				finalResult.rgb += RimResult;
 
-				float4 topColor = _TopColor * (foam + result);
-				return facing > 0 ? finalResult : topColor;
+				float4 topColor = (foam + result) * _TopColor;
+				//return finalResult + topColor;
+				return finalResult;
+				//return facing > 0 ? finalResult : topColor;
 
 		  }
 		  ENDCG

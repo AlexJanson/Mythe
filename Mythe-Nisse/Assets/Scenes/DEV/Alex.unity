@@ -208,7 +208,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1242594414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.1, y: 35.7, z: -0.9}
+  m_LocalPosition: {x: -14.4, y: 35.7, z: -0.9}
   m_LocalScale: {x: 26, y: 10, z: 26}
   m_Children: []
   m_Father: {fileID: 1456990709}
@@ -246,7 +246,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a34b96d8a2d681142a8e747d249d7949, type: 2}
+  - {fileID: 2100000, guid: 676918edf1b19324db3f05984305a09a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 1834658096}
   - component: {fileID: 1834658095}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -506,6 +506,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pan placeholder
       objectReference: {fileID: 0}
+    - target: {fileID: 13272257881189060, guid: b702a8814c393934a84e7250a59f281d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5508076469847348770, guid: b702a8814c393934a84e7250a59f281d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -560,11 +565,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 13272257881189060, guid: b702a8814c393934a84e7250a59f281d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 893478090030009310, guid: b702a8814c393934a84e7250a59f281d,
         type: 3}
