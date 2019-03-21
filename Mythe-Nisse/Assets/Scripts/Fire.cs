@@ -5,10 +5,10 @@ using UnityEngine;
 public class Fire : MonoBehaviour
 {
     private bool isHolding;
-    public bool IsHolding { get; set; }
 
     private float startTime;
     private Vector3 startPosition;
+    public float distance;
 
     private ParticleSystem fireParticles;
 
@@ -31,13 +31,25 @@ public class Fire : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.layer == 11)
+        if (isHolding)
         {
-            startTime = Time.time;
-            startPosition = transform.position;
+            if (other.gameObject.layer == 11)
+            {
+                startTime = Time.time;
+                startPosition = transform.position;
+            }
         }
-
         
+    }
+
+    public void IsHolding()
+    {
+        isHolding = true;
+    }
+
+    public void IsNotHolding()
+    {
+        isHolding = false;
     }
 
     private void OnCollisionExit(Collision other)
@@ -46,9 +58,12 @@ public class Fire : MonoBehaviour
         {
             float endTime = Time.time;
             Vector3 endPosition = transform.position;
+            Debug.Log(Vector3.Distance(endPosition, startPosition));
 
-            
-
+            if (endTime - startTime < distance && endTime - startTime > Vector3.Distance(endPosition, startPosition));
+            {
+                //Debug.Log("succes!");
+            }
         }
         
     }
