@@ -5,7 +5,8 @@ using UnityEngine;
 public class Soup : MonoBehaviour
 {
     private List<Ingredient.NameofIngredient> ingredients;
-    private List<Color32> ingredientColors;
+    [SerializeField]
+    private List<Color> ingredientColors;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,8 +16,12 @@ public class Soup : MonoBehaviour
 
             ingredients.Add(objectToCheck.objectType);          // list of all the ingredients in the soup 
             ingredientColors.Add(objectToCheck.objectColor);    // list with all color values
-        }
 
+            Renderer rend = GetComponent<Renderer>();
+
+            rend.material.shader = Shader.Find("WaterShader");
+            rend.material.SetColor("_Tint", AverageColor(ingredientColors));
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -34,5 +39,16 @@ public class Soup : MonoBehaviour
     {
         ingredients.Clear();
         ingredientColors.Clear();
+    }
+
+    private Color AverageColor(List<Color> colors) {
+        Vector3 rgb = Vector3.zero;
+        foreach(Color c in colors) {
+            rgb += new Vector3(c.r, c.g, c.b);
+        }
+
+        Color average = new Color(rgb.x / colors.Count, rgb.y / colors.Count, rgb.z / colors.Count, 0.78f);
+
+        return average;
     }
 }
