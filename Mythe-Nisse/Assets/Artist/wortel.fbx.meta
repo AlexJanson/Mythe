@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: ef991f5871dbb384698dd50e4e643aec
-=======
-guid: e3c734de61c72104a8370d7495c1976d
->>>>>>> develop
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -26,10 +22,7 @@ ModelImporter:
     4300000: wortel
     4300002: pPlane1
     4300004: pPlane2
-<<<<<<< HEAD
-=======
     9500000: //RootNode
->>>>>>> develop
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -82,13 +75,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-<<<<<<< HEAD
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
-=======
     previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
->>>>>>> develop
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -115,11 +103,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-<<<<<<< HEAD
-  animationType: 0
-=======
   animationType: 2
->>>>>>> develop
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
