@@ -65,7 +65,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
-    - _FillAmount: 0.5035
+    - _FillAmount: 0.4681
     - _Foam: 0.5
     - _GlossMapScale: 1
     - _Glossiness: 0
@@ -90,5 +90,5 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint: {r: 0.015686275, g: 0.5215686, b: 0.9921568, a: 0.5529412}
+    - _Tint: {r: 0.01568625, g: 0.8873992, b: 0.9921568, a: 0.78431374}
     - _TopColor: {r: 0.01568625, g: 0.5214972, b: 0.99215686, a: 0.5529412}

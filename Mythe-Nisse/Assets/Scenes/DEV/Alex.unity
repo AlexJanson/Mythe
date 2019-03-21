@@ -112,6 +112,27 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &263174470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1242594414, guid: b702a8814c393934a84e7250a59f281d,
+    type: 3}
+  m_PrefabInstance: {fileID: 6951520471789952261}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &263174476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263174470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72f71e306591ab44a3de9c37215f576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ingredientColors:
+  - {r: 0, g: 0.14357352, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0.030314207, a: 1}
 --- !u!1 &292799715
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,7 +252,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bb99cfcbfde217c4db1f8f46bd6713ab, type: 2}
+  - {fileID: 2100000, guid: f4756bb6b9f9ae54cb90bc26617b3a0c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
