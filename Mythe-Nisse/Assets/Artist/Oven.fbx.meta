@@ -1,32 +1,36 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: d5e64ed029a95e348976b10dbff6ace9
-=======
-guid: db916e59becb1ff4dae980ceb4d6f3fc
->>>>>>> origin/feature/EnvironmentFix
+guid: 953a6d75bc64c3e46aff1f7c059f4805
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: pCube2
-    100004: pCube8
-    100006: pSphere8
-    100008: transform3
-    100010: transform4
+    100002: pCube5
+    100004: pCube6
+    100006: pCube7
+    100008: pCube8
     400000: //RootNode
-    400002: pCube2
-    400004: pCube8
-    400006: pSphere8
-    400008: transform3
-    400010: transform4
-    2100000: lambert1
-    2300000: pCube8
-    3300000: pCube8
-    4300000: pCube8
-<<<<<<< HEAD
-=======
+    400002: pCube5
+    400004: pCube6
+    400006: pCube7
+    400008: pCube8
+    2100000: lambert4
+    2100002: lambert1
+    2100004: lambert2
+    2300000: pCube5
+    2300002: pCube6
+    2300004: pCube7
+    2300006: pCube8
+    3300000: pCube5
+    3300002: pCube6
+    3300004: pCube7
+    3300006: pCube8
+    4300000: pCube5
+    4300002: pCube6
+    4300004: pCube7
+    4300006: pCube8
+    7400000: Take 001
     9500000: //RootNode
->>>>>>> origin/feature/EnvironmentFix
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -79,13 +83,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-<<<<<<< HEAD
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
-=======
     previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
->>>>>>> origin/feature/EnvironmentFix
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -112,11 +111,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-<<<<<<< HEAD
-  animationType: 0
-=======
   animationType: 2
->>>>>>> origin/feature/EnvironmentFix
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
