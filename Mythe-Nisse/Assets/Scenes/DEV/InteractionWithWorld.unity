@@ -193,12 +193,12 @@ GameObject:
   - component: {fileID: 1183375749}
   - component: {fileID: 1183375748}
   - component: {fileID: 1183375751}
-  - component: {fileID: 1183375747}
   - component: {fileID: 1183375752}
   - component: {fileID: 1183375753}
   - component: {fileID: 1183375746}
   - component: {fileID: 1183375745}
   - component: {fileID: 1183375744}
+  - component: {fileID: 1183375747}
   m_Layer: 0
   m_Name: Match
   m_TagString: Interactable
@@ -326,8 +326,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 0
---- !u!136 &1183375747
-CapsuleCollider:
+--- !u!65 &1183375747
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -336,9 +336,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1.9
-  m_Height: 1.15
-  m_Direction: 0
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1183375748
 MeshRenderer:

@@ -42,6 +42,21 @@ public class Fire : MonoBehaviour
         
     }
 
+    private void OnCollisionExit(Collision other)
+    {
+        if (other.gameObject.layer == 11)
+        {
+            float endTime = Time.time;
+            Vector3 endPosition = transform.position;
+
+            if (endTime - startTime < Vector3.Distance(endPosition, startPosition))
+            {
+                Ignite();
+            }
+        }
+        
+    }
+
     public void IsHolding()
     {
         isHolding = true;
@@ -50,22 +65,7 @@ public class Fire : MonoBehaviour
     public void IsNotHolding()
     {
         isHolding = false;
-    }
-
-    private void OnCollisionExit(Collision other)
-    {
-        if (other.gameObject.layer == 11)
-        {
-            float endTime = Time.time;
-            Vector3 endPosition = transform.position;
-            Debug.Log(Vector3.Distance(endPosition, startPosition));
-
-            if (endTime - startTime < distance && endTime - startTime > Vector3.Distance(endPosition, startPosition));
-            {
-                //Debug.Log("succes!");
-            }
-        }
-        
+        Extinguish();
     }
 
 }
