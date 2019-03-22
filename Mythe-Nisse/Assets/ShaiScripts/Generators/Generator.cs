@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Generator : MonoBehaviour
+public static class Generator
 {
 
-    public Vector3[] ShuffleArray(Vector3[] array)
+    public static Vector3[] ShuffleArray(Vector3[] array)
     {
 
             Vector3[] shuffledArray = array;

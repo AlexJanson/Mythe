@@ -1,12 +1,21 @@
 ﻿using UnityEngine;
 
-public class NotitieColor : ColorManager
+public class NotitieColor : MonoBehaviour
 {
 
     void Start()
     {
 
-        SetColorRGBA(this.gameObject, Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), 1);
+        bool[] randomBools = new bool[]
+        {
+
+            ColorManager.GetRndmBool(), ColorManager.GetRndmBool(), ColorManager.GetRndmBool()
+
+        };
+
+        //ColorManager.SetFullColorRGB(this.gameObject, randomBools);
+
+        ColorManager.SetColorRGBA(this.gameObject, (byte)Random.Range(1, 255), (byte)Random.Range(1, 255), (byte)Random.Range(1,255), 255);
 
     }
 
