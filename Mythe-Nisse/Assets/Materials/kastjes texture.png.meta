@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 1472165902f26074b90c9ceaf97695d5
+=======
 guid: 977a2dcb22bd86e47bb6b8f31037877d
+>>>>>>> origin/feature/EnvironmentFix
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
