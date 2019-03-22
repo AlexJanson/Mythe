@@ -12,6 +12,7 @@ TagManager:
   - Ingredient3
   - Ingredient4
   - SnapPoint
+  - ingredient
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - PostProcessing
   - Interactable
   - Player
-  - 
+  - Ingredient
   - 
   - 
   - 
