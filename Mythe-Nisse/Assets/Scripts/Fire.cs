@@ -9,8 +9,13 @@ public class Fire : MonoBehaviour
     private float startTime;
     private Vector3 startPosition;
     public float distance;
+    private bool isBurning = false;
 
     private ParticleSystem fireParticles;
+    public ParticleSystem fireplace;
+
+    private int layerNumber = 11;
+    private string fireplaceTag = "Fireplace";
 
     private void Awake()
     {
@@ -21,30 +26,34 @@ public class Fire : MonoBehaviour
     {
         var em = fireParticles.emission;
         em.enabled = true;
+        isBurning = true;
     }
 
     private void Extinguish()
     {
         var em = fireParticles.emission;
         em.enabled = false;
+        isBurning = false;
     }
 
     private void OnCollisionEnter(Collision other)
     {
         if (isHolding)
         {
-            if (other.gameObject.layer == 11)
+            if (!isBurning)
             {
-                startTime = Time.time;
-                startPosition = transform.position;
+                if (other.gameObject.layer == layerNumber)
+                {
+                    startTime = Time.time;
+                    startPosition = transform.position;
+                }
             }
         }
-        
     }
 
     private void OnCollisionExit(Collision other)
     {
-        if (other.gameObject.layer == 11)
+        if (other.gameObject.layer == layerNumber)
         {
             float endTime = Time.time;
             Vector3 endPosition = transform.position;
@@ -55,6 +64,18 @@ public class Fire : MonoBehaviour
             }
         }
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == fireplaceTag)
+        {
+            if (isBurning == true)
+            {
+                var em = fireplace.emission;
+                em.enabled = true;
+            }
+        }
     }
 
     public void IsHolding()
