@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1242594417}
   - component: {fileID: 1242594416}
   - component: {fileID: 7148602613046074496}
+  - component: {fileID: 263174476}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 676918edf1b19324db3f05984305a09a, type: 2}
+  - {fileID: 2100000, guid: a34b96d8a2d681142a8e747d249d7949, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,6 +108,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.3729189
   m_Center: {x: 0, y: -0.39999995, z: -0.0021252162}
+--- !u!114 &263174476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242594414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72f71e306591ab44a3de9c37215f576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ingredientColors:
+  - {r: 0, g: 0.14357352, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0.030314207, a: 1}
 --- !u!1 &3064043271920061044
 GameObject:
   m_ObjectHideFlags: 0
