@@ -15,7 +15,7 @@ public class CutIngredient : MonoBehaviour
     {
         if (collision.gameObject.tag == "Knife") {
             for (int i = 0; i < amountToSpawn; i++) {
-                Destroy(this.gameObject);
+                Destroy(gameObject);
                 GameObject temp = Instantiate(ingredientSmall, transform.position, Quaternion.identity);
                 Color parentColor = GetComponent<Ingredient>().objectColor;
                 var parentType = GetComponent<Ingredient>().objectType;
