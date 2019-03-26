@@ -1,13 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 97ba1aae07120da47b0d674fcf608e7e
-=======
-<<<<<<< HEAD
-guid: 2b799e22094c99f46b1c0a6831d340d3
-=======
-guid: 81415654000681b47813d83d4ca36793
->>>>>>> 2020fb2999ae20e0488b35c348f6835d4173d70e
->>>>>>> origin/feature/EnvironmentFix
+guid: 9fbf2744d57418c4d96f2ea16816866d
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
