@@ -1,23 +1,14 @@
 fileFormatVersion: 2
-guid: b6a9aedc5eeb63542b1d3bf71f6b319e
+guid: e9fa332fbc17b4242940922ef52bacf5
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: deksel1
-    100002: //RootNode
-    100004: pan1
-    400000: deksel1
-    400002: //RootNode
-    400004: pan1
-    2100000: PAN
-    2300000: deksel1
-    2300002: pan1
-    3300000: deksel1
-    3300002: pan1
-    4300000: deksel1
-    4300002: pan1
-    9500000: //RootNode
-    2186277476908879412: ImportLogs
+    100000: //RootNode
+    400000: //RootNode
+    2100000: lambert1
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pCube1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -70,8 +61,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -98,7 +89,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
