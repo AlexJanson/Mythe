@@ -8,6 +8,9 @@ public class CutIngredient : MonoBehaviour
     [Range(1,10)]
     public int amountToSpawn = 3;
 
+    [Range(1,10)]
+    public float maxVelocity = 2f;
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Knife") {
@@ -19,7 +22,7 @@ public class CutIngredient : MonoBehaviour
                 temp.GetComponent<Renderer>().material.color = parentColor;
                 temp.GetComponent<Ingredient>().objectColor = parentColor;
                 temp.GetComponent<Ingredient>().objectType = parentType;
-                temp.GetComponent<Rigidbody>().velocity = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+                temp.GetComponent<Rigidbody>().velocity = new Vector3(Random.Range(-maxVelocity, maxVelocity), Random.Range(0f, maxVelocity), Random.Range(-maxVelocity, maxVelocity));
             }
         }
     }
