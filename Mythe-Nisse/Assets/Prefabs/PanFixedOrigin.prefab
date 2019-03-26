@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1612749831489489200}
   - component: {fileID: 714425163194401021}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 7852609607538433154}
   - component: {fileID: 5769397486684326970}
   m_Layer: 0
-  m_Name: pan1
+  m_Name: Pan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
