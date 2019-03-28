@@ -17,8 +17,7 @@ public class SoupFill : MonoBehaviour
     
     void Update()
     {
-        fillAmountPercent = fillAmount * 0.551f;
-        fillAmountPercent = Mathf.Lerp(0.45f, 0.551f, fillAmount);
+        fillAmountPercent = Mathf.Lerp(0.449f, 0.551f, fillAmount);
         rend.material.SetFloat("_FillAmount", fillAmountPercent);
     }
 
