@@ -270,6 +270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distance: 0
   fireplace: {fileID: 0}
+  fireplaceObject: {fileID: 0}
 --- !u!65 &1183375747
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -432,6 +433,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1236913777136760156, guid: 4949daa08984c7c40bba3fe230dead64,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1236913776611410301, guid: 4949daa08984c7c40bba3fe230dead64,
         type: 3}
       propertyPath: m_Constraints
@@ -491,11 +497,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1236913777136760156, guid: 4949daa08984c7c40bba3fe230dead64,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4949daa08984c7c40bba3fe230dead64, type: 3}
@@ -597,11 +598,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8029693774142977787, guid: 2cf1a14de7d6911419bde7fb82a92ed8,
-        type: 3}
-      propertyPath: m_Name
-      value: Oven 2
-      objectReference: {fileID: 0}
     - target: {fileID: 577195712131396815, guid: 2cf1a14de7d6911419bde7fb82a92ed8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -657,5 +653,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8029693774142977787, guid: 2cf1a14de7d6911419bde7fb82a92ed8,
+        type: 3}
+      propertyPath: m_Name
+      value: Oven 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf1a14de7d6911419bde7fb82a92ed8, type: 3}
+--- !u!1 &8815836481721900041 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8815836481639523422, guid: 2cf1a14de7d6911419bde7fb82a92ed8,
+    type: 3}
+  m_PrefabInstance: {fileID: 8815836481721900040}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8815836481721900042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8815836481721900041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db8db74cda0bccf4885294d8a4661979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canCook: 0

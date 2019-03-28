@@ -16,10 +16,13 @@ public class Fire : MonoBehaviour
 
     private int layerNumber = 11;
     private string fireplaceTag = "Fireplace";
+    public GameObject fireplaceObject;
+    private BurningState burningState;
 
     private void Awake()
     {
         fireParticles = GetComponent<ParticleSystem>();
+        burningState = GameObject.Find("Fireplace Area").GetComponent<BurningState>();
     }
 
     private void Ignite()
@@ -27,6 +30,14 @@ public class Fire : MonoBehaviour
         var em = fireParticles.emission;
         em.enabled = true;
         isBurning = true;
+    }
+
+    private void ToggleFireplace(bool value)
+    {
+        fireplace = fireplaceObject.GetComponent<ParticleSystem>();
+        var em = fireplace.emission;
+        em.enabled = value;
+        burningState.canCook = value;
     }
 
     private void Extinguish()
@@ -72,8 +83,8 @@ public class Fire : MonoBehaviour
         {
             if (isBurning == true)
             {
-                var em = fireplace.emission;
-                em.enabled = true;
+                ToggleFireplace(true);
+                
             }
         }
     }
