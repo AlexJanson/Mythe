@@ -20,7 +20,10 @@ public class SoupFill : MonoBehaviour
     {
         fillAmount = Mathf.Clamp01(fillAmount);
         fillAmountPercent = Mathf.Lerp(0.451f, 0.551f, fillAmount);
-        rend.material.SetFloat("_FillAmount", fillAmountPercent);
+        if(fillAmount >= 0.99f) {
+            rend.material.SetFloat("_FillAmount", 1f);
+        } else
+            rend.material.SetFloat("_FillAmount", fillAmountPercent);
     }
 
     public void Empty()
