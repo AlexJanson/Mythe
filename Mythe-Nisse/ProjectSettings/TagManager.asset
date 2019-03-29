@@ -13,6 +13,7 @@ TagManager:
   - Ingredient4
   - SnapPoint
   - ingredient
+  - Pan
   layers:
   - Default
   - TransparentFX

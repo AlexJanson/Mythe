@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 4656579779339691292}
   - component: {fileID: 1612749831489489200}
   - component: {fileID: 714425163194401021}
+  - component: {fileID: 824337738}
   m_Layer: 0
   m_Name: Water
-  m_TagString: Untagged
+  m_TagString: Pan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,6 +123,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientColors: []
+--- !u!114 &824337738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3626241425904218284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff9c063665129747b8d0d64887393f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fillAmount: 0.515
+  fillAmountPercent: 0
+  stdColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &7852609607536427588
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,9 +150,10 @@ GameObject:
   - component: {fileID: 7852609607539400258}
   - component: {fileID: 7852609607538433154}
   - component: {fileID: 5769397486684326970}
+  - component: {fileID: 390570071}
   m_Layer: 0
   m_Name: Pan
-  m_TagString: Untagged
+  m_TagString: Pan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -215,6 +232,22 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300002, guid: b6a9aedc5eeb63542b1d3bf71f6b319e, type: 3}
+--- !u!54 &390570071
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7852609607536427588}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8619490072129648615
 GameObject:
   m_ObjectHideFlags: 0

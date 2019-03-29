@@ -6,18 +6,20 @@ public class SoupFill : MonoBehaviour
 {
     Renderer rend;
     [Range(0f, 1f)]
-    public float fillAmount = 0.50f;
+    public float fillAmount;
     public float fillAmountPercent;
     public Color stdColor;
     
     void Start()
     {
         rend = GetComponent<Renderer>();
+        fillAmount = 0.50f;
     }
     
     void Update()
     {
-        fillAmountPercent = Mathf.Lerp(0.449f, 0.551f, fillAmount);
+        fillAmount = Mathf.Clamp01(fillAmount);
+        fillAmountPercent = Mathf.Lerp(0.451f, 0.551f, fillAmount);
         rend.material.SetFloat("_FillAmount", fillAmountPercent);
     }
 
