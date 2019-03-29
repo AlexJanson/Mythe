@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1490334799026301891}
   - component: {fileID: 1490334799026301889}
   - component: {fileID: 1490334799026301888}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Pivitpoint kastdeur 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,7 +138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490334799073526983}
   - component: {fileID: 1490334799073526980}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Handle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490334799199013009}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Start1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -211,7 +211,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490334799314630961}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: End2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -242,7 +242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490334799324430245}
   - component: {fileID: 1490334799324430170}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Handle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,7 +286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490334799410073025}
   - component: {fileID: 1490334799410073030}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,7 +329,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490334799455221857}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: End1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -359,7 +359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490334799540792881}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Lades
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490334799582329926}
   - component: {fileID: 1490334799582329927}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Handle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490334799737203129}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LinearMappings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -474,7 +474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490334799882019315}
   - component: {fileID: 1490334799882019312}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -518,7 +518,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490334800099185672}
   - component: {fileID: 1490334800099185673}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LinearMapping1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -562,7 +562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490334800147145278}
   - component: {fileID: 1490334800147145279}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LinearMapping3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,7 +606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490334800153186768}
   - component: {fileID: 1490334800153186769}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LinearMapping Circular 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -651,7 +651,7 @@ GameObject:
   - component: {fileID: 1490334800308000911}
   - component: {fileID: 1490334800308000909}
   - component: {fileID: 1490334800308000908}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Pivitpoint kastdeur 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -777,7 +777,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490334800511563728}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Start2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -808,7 +808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490334800525286877}
   - component: {fileID: 1490334800525286866}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LinearMapping Circular 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -851,7 +851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490334800668564966}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: End3
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -881,7 +881,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490334800727562531}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Start3
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -911,7 +911,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490334800931940626}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Tafelpoten
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -946,7 +946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490334800987993354}
   - component: {fileID: 1490334800987993355}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LinearMapping2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -989,7 +989,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490334801088967264}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LinearDrive Points
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1030,7 +1030,8 @@ GameObject:
   - component: {fileID: 4825501656354632671}
   - component: {fileID: 4825501656354632670}
   - component: {fileID: 4825501656354632665}
-  m_Layer: 0
+  - component: {fileID: 6668183794072422784}
+  m_Layer: 12
   m_Name: kastlade_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1182,6 +1183,20 @@ MonoBehaviour:
   repositionGameObject: 1
   maintainMomemntum: 1
   momemtumDampenRate: 5
+--- !u!64 &6668183794072422784
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4825501656354632224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300008, guid: 2ebf8980ed2082f44b15271b35e3c0cf, type: 3}
 --- !u!1 &4825501656354632226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1196,7 +1211,8 @@ GameObject:
   - component: {fileID: 4825501656354632664}
   - component: {fileID: 4825501656354632225}
   - component: {fileID: 4825501656354632227}
-  m_Layer: 0
+  - component: {fileID: 774954406062619171}
+  m_Layer: 12
   m_Name: kastlade_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1348,6 +1364,20 @@ MonoBehaviour:
   repositionGameObject: 1
   maintainMomemntum: 1
   momemtumDampenRate: 5
+--- !u!64 &774954406062619171
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4825501656354632226}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300006, guid: 2ebf8980ed2082f44b15271b35e3c0cf, type: 3}
 --- !u!1 &4825501656354632228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1359,7 +1389,7 @@ GameObject:
   - component: {fileID: 4825501656354663940}
   - component: {fileID: 4825501656355466790}
   - component: {fileID: 4825501656356564198}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: poot_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1439,7 +1469,8 @@ GameObject:
   - component: {fileID: 4825501656354632667}
   - component: {fileID: 4825501656354632666}
   - component: {fileID: 4825501656354632231}
-  m_Layer: 0
+  - component: {fileID: 2834275159836965726}
+  m_Layer: 12
   m_Name: kastlade_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1591,6 +1622,20 @@ MonoBehaviour:
   repositionGameObject: 1
   maintainMomemntum: 1
   momemtumDampenRate: 5
+--- !u!64 &2834275159836965726
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4825501656354632230}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300010, guid: 2ebf8980ed2082f44b15271b35e3c0cf, type: 3}
 --- !u!1 &4825501656354632232
 GameObject:
   m_ObjectHideFlags: 0
@@ -1603,7 +1648,7 @@ GameObject:
   - component: {fileID: 4825501656355466794}
   - component: {fileID: 4825501656356564202}
   - component: {fileID: 8921615535443220645}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Kast model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1695,7 +1740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4825501656354663946}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: grote Kast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1711,7 +1756,7 @@ Transform:
   m_GameObject: {fileID: 4825501656354632234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.2889035, y: 0.05, z: 1.4352859}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 4825501656354663944}
   m_Father: {fileID: 0}
@@ -1728,7 +1773,8 @@ GameObject:
   - component: {fileID: 4825501656354663948}
   - component: {fileID: 4825501656355466798}
   - component: {fileID: 4825501656356564206}
-  m_Layer: 0
+  - component: {fileID: 3187423340615419600}
+  m_Layer: 12
   m_Name: kastdeur_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1795,6 +1841,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &3187423340615419600
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4825501656354632236}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.040555555, y: 0.06229598, z: 0.0020458607}
+  m_Center: {x: -0.01954819, y: -0.000000017881394, z: -0.0002967412}
 --- !u!1 &4825501656354632238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1806,7 +1865,8 @@ GameObject:
   - component: {fileID: 4825501656354663950}
   - component: {fileID: 4825501656355466792}
   - component: {fileID: 4825501656356564200}
-  m_Layer: 0
+  - component: {fileID: 6268605781029594070}
+  m_Layer: 12
   m_Name: kastdeur_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1873,6 +1933,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6268605781029594070
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4825501656354632238}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.040555548, y: 0.06229598, z: 0.002295378}
+  m_Center: {x: -0.019546429, y: -0.000000017881394, z: -0.0006445178}
 --- !u!1 &4825501656354632248
 GameObject:
   m_ObjectHideFlags: 0
@@ -1884,7 +1957,7 @@ GameObject:
   - component: {fileID: 4825501656354663960}
   - component: {fileID: 4825501656355466810}
   - component: {fileID: 4825501656356564218}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: poot_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1961,7 +2034,7 @@ GameObject:
   - component: {fileID: 4825501656354663962}
   - component: {fileID: 4825501656355466788}
   - component: {fileID: 4825501656356564196}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: poot_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2038,7 +2111,7 @@ GameObject:
   - component: {fileID: 4825501656354663966}
   - component: {fileID: 4825501656355466808}
   - component: {fileID: 4825501656356564216}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: poot_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}

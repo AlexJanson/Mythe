@@ -13,7 +13,8 @@ TagManager:
   - Ingredient4
   - SnapPoint
   - ingredient
-  - Pan
+  - IngredientSpawn
+  - Knife
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - Interactable
   - Player
   - Ingredient
-  - 
+  - Drawers
   - 
   - 
   - 
