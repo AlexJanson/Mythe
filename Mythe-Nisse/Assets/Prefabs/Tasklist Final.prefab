@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &3442308898637159834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4407807210101242447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aada5122d65a7d4da89a53f8c2d2b67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2234902205844632462
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1348242293311484095, guid: 7171d1dfb014aa9469ef4ea3b9becfd1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348242293311484094, guid: 7171d1dfb014aa9469ef4ea3b9becfd1,
+        type: 3}
+      propertyPath: m_Name
+      value: TaskList (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7171d1dfb014aa9469ef4ea3b9becfd1, type: 3}
+--- !u!1 &4407807210101242447 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2461317229424560577, guid: 7171d1dfb014aa9469ef4ea3b9becfd1,
+    type: 3}
+  m_PrefabInstance: {fileID: 2234902205844632462}
+  m_PrefabAsset: {fileID: 0}
