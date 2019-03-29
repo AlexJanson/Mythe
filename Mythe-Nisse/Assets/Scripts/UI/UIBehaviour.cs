@@ -18,11 +18,6 @@ public class UIBehaviour : MonoBehaviour
         {
             PauseGame();
         }
-
-        if (SteamVR_Input)
-        {
-            PauseGame();
-        }
     }
 
     public void SwitchScene(string sceneName)
