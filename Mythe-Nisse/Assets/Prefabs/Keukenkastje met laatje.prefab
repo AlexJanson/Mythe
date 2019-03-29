@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1567052827060997507}
   - component: {fileID: 256985980520843846}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LinearMapping2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6137417116264578508}
   - component: {fileID: 6137417116264578507}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6137417116514508129}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: End2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -112,7 +112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6137417116514508130}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.15396048, z: 0.0064250003}
+  m_LocalPosition: {x: 0, y: -0.0559, z: 0.0064250003}
   m_LocalScale: {x: 0.22727273, y: 6.085395, z: 0.22727273}
   m_Children: []
   m_Father: {fileID: 8687942502714762441}
@@ -127,7 +127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6137417116587375027}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Start2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 6137417116607729868}
   - component: {fileID: 6137417116607729867}
   - component: {fileID: 2394477671657365600}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: lade 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -360,7 +360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6137417116661979754}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: End1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -375,7 +375,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6137417116661979755}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.058906645, z: 0.0064250003}
+  m_LocalPosition: {x: 0, y: -0.0559, z: 0.0064250003}
   m_LocalScale: {x: 0.0022727295, y: 0.060853947, z: 0.0022727295}
   m_Children: []
   m_Father: {fileID: 8687942502714762441}
@@ -391,7 +391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6137417117541611662}
   - component: {fileID: 6137417117541611661}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,7 +434,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6137417117595844034}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Start1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -465,7 +465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6137417117853471147}
   - component: {fileID: 6137417117853471146}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LinearMapping
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -512,7 +512,7 @@ GameObject:
   - component: {fileID: 8687942502716663337}
   - component: {fileID: 3791202224625959030}
   - component: {fileID: 4706776739096498175}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: kastje_lades
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -621,7 +621,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8687942502714762443}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Keukenkastje met laatje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -659,7 +659,7 @@ GameObject:
   - component: {fileID: 8687942502714669288}
   - component: {fileID: 8687942502714669287}
   - component: {fileID: 6183470177523197828}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: lade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -674,7 +674,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8687942502714669293}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.058906652, z: 0.0008568182}
+  m_LocalPosition: {x: 0, y: -0.0559, z: 0.0008568182}
   m_LocalScale: {x: 0.22727272, y: 6.085395, z: 0.22727272}
   m_Children:
   - {fileID: 6137417117541611662}
