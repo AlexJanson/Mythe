@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SoupScript : MonoBehaviour
 {
@@ -7,7 +6,7 @@ public class SoupScript : MonoBehaviour
     private void Start()
     {
 
-        ColorManager.SetColorRGBA(this.gameObject,1,1,1,255);
+        ColorManager.SetColorRGBA(this.gameObject,255,255,255,255);
 
     }
 
@@ -19,7 +18,13 @@ public class SoupScript : MonoBehaviour
 
             ColorManager.MixColor(this.gameObject,other.gameObject);
 
-            ColorManager.CheckColorMatch(this.gameObject, GameObject.Find("Blaadje"));
+        }
+
+
+        else if (other.gameObject.tag.Contains("Water"))
+        {
+
+            ColorManager.SetColorRGBA(this.gameObject,255,255,255,1);
 
         }
 
