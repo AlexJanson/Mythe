@@ -1,24 +1,18 @@
 fileFormatVersion: 2
-guid: fa368bb4d17a2744e898c3bc6ea7eaab
+guid: a379e998e0fe0344fbd59bbad0eb6381
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: deurtje
-    100002: Kastje_deurtje
-    100004: //RootNode
-    400000: deurtje
-    400002: Kastje_deurtje
-    400004: //RootNode
-    2100000: Texture_kastjes
-    2100002: pasted__lambert7
-    2300000: deurtje
-    2300002: Kastje_deurtje
-    3300000: deurtje
-    3300002: Kastje_deurtje
-    4300000: Kastje_deurtje
-    4300002: deurtje
-    7400000: Take 001
-    9500000: //RootNode
+    100000: //RootNode
+    100002: nurbsToPoly2
+    100004: revolvedSurface1
+    400000: //RootNode
+    400002: nurbsToPoly2
+    400004: revolvedSurface1
+    2100000: glass
+    2300000: nurbsToPoly2
+    3300000: nurbsToPoly2
+    4300000: nurbsToPoly2
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -71,8 +65,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -99,7 +93,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
