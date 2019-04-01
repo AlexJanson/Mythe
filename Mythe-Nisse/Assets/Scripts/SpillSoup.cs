@@ -8,7 +8,6 @@ public class SpillSoup : MonoBehaviour
 
     public void Update()
     {
-        Debug.Log(waterRotation.rotation);
         if (waterRotation.rotation.x > 0.2f || waterRotation.rotation.x < -0.2f || 
             waterRotation.rotation.z > 0.2f || waterRotation.rotation.z < -0.2f) {
             waterRotation.gameObject.GetComponent<SoupFill>().fillAmount += 0.01f;

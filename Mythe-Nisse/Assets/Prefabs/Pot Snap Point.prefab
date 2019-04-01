@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 126240534}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13, y: 15.4, z: 1.2}
+  m_LocalPosition: {x: 0, y: 0, z: 1.2}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 6642833141321347022}
@@ -78,19 +78,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
       propertyPath: m_Name
-      value: Pot Snap Object
+      value: Pot Snap Point
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.12719238
+      value: 0.515
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 2.385
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.6546861
+      value: 4.24
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -126,24 +126,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.01
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.01
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.01
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8c78d495cbcfe784087aad22d2d4a510, type: 2}
+    - target: {fileID: 3300000, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300002, guid: b6a9aedc5eeb63542b1d3bf71f6b319e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26656c57f0aba4d499a7a2a6a68091f2, type: 3}
 --- !u!1 &6642833141320987630 stripped
