@@ -7,7 +7,14 @@ TagManager:
   - projectile
   - FxTemporaire
   - Interactable
-  - Fireplace
+  - Ingredient1
+  - Ingredient2
+  - Ingredient3
+  - Ingredient4
+  - SnapPoint
+  - ingredient
+  - IngredientSpawn
+  - Knife
   layers:
   - Default
   - TransparentFX
@@ -20,8 +27,8 @@ TagManager:
   - PostProcessing
   - Interactable
   - Player
-  - burnableMatch
-  - 
+  - Ingredient
+  - Drawers
   - 
   - 
   - 
