@@ -14,7 +14,7 @@ public class UIBehaviour : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (SteamVR_Actions.default_PauseGame.GetStateDown(SteamVR_Input_Sources.Any))
         {
             PauseGame();
         }

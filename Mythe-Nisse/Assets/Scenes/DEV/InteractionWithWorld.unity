@@ -416,7 +416,7 @@ PrefabInstance:
     - target: {fileID: 2468593756909399017, guid: 92e7d777866feff49b33b034f3d690fe,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2468593757148415467, guid: 92e7d777866feff49b33b034f3d690fe,
         type: 3}
@@ -426,6 +426,11 @@ PrefabInstance:
     - target: {fileID: 2468593757148415467, guid: 92e7d777866feff49b33b034f3d690fe,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2468593757219295651, guid: 92e7d777866feff49b33b034f3d690fe,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
