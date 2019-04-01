@@ -188,11 +188,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1236913777136760156, guid: 4949daa08984c7c40bba3fe230dead64,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 1236913777136534820, guid: 4949daa08984c7c40bba3fe230dead64,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -247,6 +242,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1236913777136760156, guid: 4949daa08984c7c40bba3fe230dead64,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1236913776611410301, guid: 4949daa08984c7c40bba3fe230dead64,
         type: 3}
@@ -412,26 +412,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2468593756909399017, guid: 92e7d777866feff49b33b034f3d690fe,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2468593757148415467, guid: 92e7d777866feff49b33b034f3d690fe,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2468593757148415467, guid: 92e7d777866feff49b33b034f3d690fe,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2468593757219295651, guid: 92e7d777866feff49b33b034f3d690fe,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92e7d777866feff49b33b034f3d690fe, type: 3}
