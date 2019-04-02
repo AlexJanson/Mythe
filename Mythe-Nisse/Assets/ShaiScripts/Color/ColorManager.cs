@@ -49,11 +49,9 @@ public static class ColorManager
 
         var ObjectRender = Object.GetComponent<Renderer>();
 
-        float newR = (otherColor.r + ObjectColor.r) / 2;
-        float newG = (otherColor.g + ObjectColor.g) / 2;
-        float newB = (otherColor.b + ObjectColor.b) / 2;
-
-
+        float newR = ((otherColor.r) + (ObjectColor.r)) /2;
+        float newG = ((otherColor.g) + (ObjectColor.g)) /2;
+        float newB = ((otherColor.b) + (ObjectColor.b)) /2;
 
         ObjectRender.material.color = new Color(newR, newG, newB, 1f);
 
@@ -63,13 +61,13 @@ public static class ColorManager
     public static void CheckColorMatch(GameObject Object1, GameObject Object2)
     {
 
-        float percentageOffset = 60;
+        float percentageOffset = 50;
 
         float percentageR;
         float percentageG;
         float percentageB;
 
-        var obj1 = Object1.GetComponent<Renderer>().material.color;
+        var obj1 = Object1.GetComponent<Renderer>().material.GetColor("_Tint");
         var obj2 = Object2.GetComponent<Renderer>().material.color;
 
         Vector3 obj1RGB = new Vector3(obj1.r, obj1.g, obj1.b);
@@ -104,10 +102,12 @@ public static class ColorManager
 
         if ((percentageR > percentageOffset) && (percentageG > percentageOffset) && (percentageB > percentageOffset))
         {
-            Debug.Log("Match");
+            Debug.Log("Match " + "R: " + percentageR + "G: " + percentageG + "B: " + percentageB);
+        }else
+        {
+            Debug.Log("No Match " + "R: " + percentageR + "G: " + percentageG + "B: " + percentageB);
         }
 
-        Debug.Log("R: " + percentageR + " G: " + percentageG + " B: " + percentageB);
 
     }
 
