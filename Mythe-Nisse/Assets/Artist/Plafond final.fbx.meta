@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 796618f963e6dec408405fad23f1dd0c
+guid: fb2ac109ffdffd645a4f9459847deacf
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -18,17 +18,14 @@ ModelImporter:
     2300002: pPlane1
     2300004: pPlane2
     2300006: pPlane3
-    2300008: //RootNode
     3300000: pCube1
     3300002: pPlane1
     3300004: pPlane2
     3300006: pPlane3
-    3300008: //RootNode
     4300000: pPlane1
     4300002: pCube1
     4300004: pPlane2
     4300006: pPlane3
-    4300008: pCube2
   externalObjects: {}
   materials:
     importMaterials: 1
