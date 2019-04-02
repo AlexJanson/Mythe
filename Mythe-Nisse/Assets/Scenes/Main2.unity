@@ -5873,7 +5873,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.010333852, y: 0.22911382, z: 0.010368976}
   m_Center: {x: 0.00000078254396, y: -0.10955693, z: 0.0000335374}
---- !u!64 &1568372871
+--- !u!64 &1568372874
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6734,12 +6734,12 @@ PrefabInstance:
     - target: {fileID: 6642833141320987630, guid: 2a77a99cc5696fb48a2d1df31ea8b2c6,
         type: 3}
       propertyPath: m_Name
-      value: Pot Snap Point (1)
+      value: Final Snap Point
       objectReference: {fileID: 0}
     - target: {fileID: 6642833141320987630, guid: 2a77a99cc5696fb48a2d1df31ea8b2c6,
         type: 3}
       propertyPath: m_TagString
-      value: SnapPoint
+      value: FinalPoint
       objectReference: {fileID: 0}
     - target: {fileID: 6642833141321347022, guid: 2a77a99cc5696fb48a2d1df31ea8b2c6,
         type: 3}
