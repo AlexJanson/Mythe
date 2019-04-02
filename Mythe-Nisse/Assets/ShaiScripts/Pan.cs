@@ -3,15 +3,10 @@
 public class Pan : MonoBehaviour
 {
 
-    private void OnTriggerEnter(Collider other)
+    public void CheckColor()
     {
 
-        if(other.gameObject.tag.Contains("Tafel"))
-        {
-
-            ColorManager.CheckColorMatch(GameObject.Find("Soup"), GameObject.Find("Blaadje"));
-
-        }
+            ColorManager.CheckColorMatch(GameObject.Find("Water"), GameObject.Find("SoupColor"));
 
     }
 

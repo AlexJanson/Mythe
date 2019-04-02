@@ -44,6 +44,7 @@ public class SnapToSnapPoint : MonoBehaviour
             keepOnSnap = true;
             SnapPoint.gameObject.GetComponentInChildren<MeshRenderer>().enabled = false;
             Debug.Log("begin snap");
+            GetComponent<Pan>().CheckColor();
         }
     }
 

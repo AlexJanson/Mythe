@@ -67,7 +67,7 @@ public static class ColorManager
         float percentageG;
         float percentageB;
 
-        var obj1 = Object1.GetComponent<Renderer>().material.color;
+        var obj1 = Object1.GetComponent<Renderer>().material.GetColor("_Tint");
         var obj2 = Object2.GetComponent<Renderer>().material.color;
 
         Vector3 obj1RGB = new Vector3(obj1.r, obj1.g, obj1.b);

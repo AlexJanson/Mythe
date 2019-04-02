@@ -14,7 +14,8 @@ public class Fire : MonoBehaviour
     private ParticleSystem fireParticles;
     public ParticleSystem fireplace;
 
-    private int layerNumber = 11;
+    [SerializeField]
+    private LayerMask layerNumber = 11;
     private string fireplaceTag = "Fireplace";
     public GameObject fireplaceObject;
     private BurningState burningState;
