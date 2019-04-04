@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 8741528}
   - component: {fileID: 8741530}
   - component: {fileID: 8741529}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: switch_scenes_icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -356,6 +356,11 @@ PrefabInstance:
       propertyPath: linearMapping
       value: 
       objectReference: {fileID: 14012483}
+    - target: {fileID: 8687942502714669289, guid: 90af572dea89348478c0dd408231d483,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90af572dea89348478c0dd408231d483, type: 3}
 --- !u!4 &14012482 stripped
@@ -405,7 +410,7 @@ GameObject:
   - component: {fileID: 85394338}
   - component: {fileID: 85394337}
   - component: {fileID: 85394336}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: teleport_marker_canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -635,6 +640,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Keukenkastje met laatje (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8687942502714669291, guid: 90af572dea89348478c0dd408231d483,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8687942502714762443, guid: 90af572dea89348478c0dd408231d483,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -689,6 +699,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8687942502714669289, guid: 90af572dea89348478c0dd408231d483,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90af572dea89348478c0dd408231d483, type: 3}
@@ -815,7 +830,7 @@ GameObject:
   - component: {fileID: 231978310}
   - component: {fileID: 231978312}
   - component: {fileID: 231978311}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TeleportPoint (Unlocked)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1090,23 +1105,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1318,7 +1333,7 @@ GameObject:
   - component: {fileID: 341800913}
   - component: {fileID: 341800915}
   - component: {fileID: 341800914}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: locked_icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2136,6 +2151,7 @@ Transform:
   - {fileID: 1595562904}
   - {fileID: 1870235154}
   - {fileID: 937780746}
+  - {fileID: 1032816076}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2150,7 +2166,7 @@ GameObject:
   - component: {fileID: 597692889}
   - component: {fileID: 597692891}
   - component: {fileID: 597692890}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TeleportPoint (Unlocked)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2223,7 +2239,7 @@ GameObject:
   - component: {fileID: 635154368}
   - component: {fileID: 635154370}
   - component: {fileID: 635154369}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: teleport_marker_canvas_text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2322,7 +2338,7 @@ GameObject:
   - component: {fileID: 642042223}
   - component: {fileID: 642042222}
   - component: {fileID: 642042221}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: teleport_marker_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2488,7 +2504,7 @@ GameObject:
   - component: {fileID: 742632776}
   - component: {fileID: 742632775}
   - component: {fileID: 742632774}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: teleport_marker_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3025,7 +3041,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 871402248}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: teleport_marker_icons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3141,7 +3157,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 974410333}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: teleport_marker_icons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3177,7 +3193,7 @@ GameObject:
   - component: {fileID: 1008762496}
   - component: {fileID: 1008762495}
   - component: {fileID: 1008762494}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: teleport_marker_canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3264,6 +3280,12 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!4 &1032816076 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8835941422075638891, guid: 880ec244503391843986cca38c43502b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1725945318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1033839668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3956,7 +3978,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1169642119}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: teleport_marker_lookat_joint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4245,6 +4267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: grote Kast
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825501656354632232, guid: d116d62af43059c4b8d3228ba8effa3e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4825501656354663946, guid: d116d62af43059c4b8d3228ba8effa3e,
         type: 3}
@@ -4629,7 +4656,7 @@ GameObject:
   - component: {fileID: 1331763280}
   - component: {fileID: 1331763282}
   - component: {fileID: 1331763281}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: locked_icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4780,7 +4807,7 @@ GameObject:
   - component: {fileID: 1334186170}
   - component: {fileID: 1334186172}
   - component: {fileID: 1334186171}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: move_location_icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5026,7 +5053,7 @@ GameObject:
   - component: {fileID: 1390304229}
   - component: {fileID: 1390304231}
   - component: {fileID: 1390304230}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: teleport_marker_canvas_text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5181,23 +5208,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6104,7 +6131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c2e732d4ca2bbdb40a698be09484efc3, type: 3}
       propertyPath: m_Layer
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c2e732d4ca2bbdb40a698be09484efc3, type: 3}
       propertyPath: m_TagString
@@ -6328,7 +6355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ef4dd5bee7095e45953609a06b2a074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ingredientSmall: {fileID: 0}
+  ingredientSmall: {fileID: 6750437471859678036, guid: 4d8866cc73854cd439dc45fe5a5ee08d,
+    type: 3}
   amountToSpawn: 3
   maxVelocity: 2
 --- !u!1001 &1658109696
@@ -8090,6 +8118,75 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717877752}
   m_Enabled: 1
+--- !u!1001 &1725945318
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 528770520}
+    m_Modifications:
+    - target: {fileID: 8835941422075865163, guid: 880ec244503391843986cca38c43502b,
+        type: 3}
+      propertyPath: m_Name
+      value: Plafond final Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835941422075638891, guid: 880ec244503391843986cca38c43502b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835941422075638891, guid: 880ec244503391843986cca38c43502b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835941422075638891, guid: 880ec244503391843986cca38c43502b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835941422075638891, guid: 880ec244503391843986cca38c43502b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835941422075638891, guid: 880ec244503391843986cca38c43502b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835941422075638891, guid: 880ec244503391843986cca38c43502b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835941422075638891, guid: 880ec244503391843986cca38c43502b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835941422075638891, guid: 880ec244503391843986cca38c43502b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835941422075638891, guid: 880ec244503391843986cca38c43502b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835941422075638891, guid: 880ec244503391843986cca38c43502b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835941422075638891, guid: 880ec244503391843986cca38c43502b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 880ec244503391843986cca38c43502b, type: 3}
 --- !u!92 &1726597410
 Behaviour:
   m_ObjectHideFlags: 0
@@ -8295,7 +8392,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1769669355}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: teleport_marker_lookat_joint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8808,7 +8905,7 @@ GameObject:
   - component: {fileID: 1947167077}
   - component: {fileID: 1947167079}
   - component: {fileID: 1947167078}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: move_location_icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8885,7 +8982,7 @@ GameObject:
   - component: {fileID: 1975551577}
   - component: {fileID: 1975551579}
   - component: {fileID: 1975551578}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: switch_scenes_icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9052,6 +9149,98 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1364706112}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2022409270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2022409274}
+  - component: {fileID: 2022409273}
+  - component: {fileID: 2022409272}
+  - component: {fileID: 2022409271}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &2022409271
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022409270}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2022409272
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022409270}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2022409273
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022409270}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2022409274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022409270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.995, y: 4.082, z: 4.401}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2073216201
 GameObject:
   m_ObjectHideFlags: 0
@@ -9914,7 +10103,7 @@ PrefabInstance:
     - target: {fileID: 6085323224547491860, guid: e3c1d53b984dc394aa43ef4f22c4f868,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.079673
+      value: 2.111
       objectReference: {fileID: 0}
     - target: {fileID: 6085323224547491860, guid: e3c1d53b984dc394aa43ef4f22c4f868,
         type: 3}
@@ -9964,6 +10153,11 @@ PrefabInstance:
     - target: {fileID: 6085323224713241634, guid: e3c1d53b984dc394aa43ef4f22c4f868,
         type: 3}
       propertyPath: fillAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6085323224547491863, guid: e3c1d53b984dc394aa43ef4f22c4f868,
+        type: 3}
+      propertyPath: m_Convex
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
