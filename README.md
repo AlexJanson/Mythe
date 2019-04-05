@@ -1,4 +1,4 @@
-## [title game]
+## Gastrognomy
 Project team: Mitchell, Jochem, Shailesh, Alex, Femke, Vera
 
 Platform:
