@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.mythenisse.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "D:\\Unity Projects\\Mythe\\Mythe-Nisse\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Mythe-Nisse [Testing]"
+        }
+      }
+    }
+  ]
+}
