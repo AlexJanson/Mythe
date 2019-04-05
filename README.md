@@ -38,8 +38,9 @@ Je bent een kabouter en je moet klusjes klaren voordat de mensen weer thuis zijn
    [Backlog]: <https://trello.com/b/kfqWhrdm/project-mythe>
    [Logboek]: <https://docs.google.com/document/d/1Wsb6gyKry_lQSOKj3yD8CEMkXf6jSZTwtZz2uy8n2AQ>
    [GameDesignDoc]: <https://docs.google.com/presentation/d/11LprcXs38A70jUiI26nzGr5Y77nBShLgdPsIECx5DG8>
+   [AssetPlanning]: <https://docs.google.com/document/d/14x5mPtOM0HXlzkWMwVGTWfxDTHIPWYP4X-BIc84kuS0/edit#>
    [RetrospectiveVerslagen]: <>
    [ReviewVerslagen]: <>
    [Prototype]: <>
-   [AssetPlanning]: <https://docs.google.com/document/d/14x5mPtOM0HXlzkWMwVGTWfxDTHIPWYP4X-BIc84kuS0/edit#>
+
    
