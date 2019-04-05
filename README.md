@@ -41,5 +41,5 @@ Je bent een kabouter en je moet klusjes klaren voordat de mensen weer thuis zijn
    [RetrospectiveVerslagen]: <>
    [ReviewVerslagen]: <>
    [Prototype]: <>
-   [AssetPlanning]: <>
+   [AssetPlanning]: <https://docs.google.com/document/d/14x5mPtOM0HXlzkWMwVGTWfxDTHIPWYP4X-BIc84kuS0/edit#>
    
