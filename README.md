@@ -39,8 +39,9 @@ Je bent een kabouter en je moet klusjes klaren voordat de mensen weer thuis zijn
    [Logboek]: <https://docs.google.com/document/d/1Wsb6gyKry_lQSOKj3yD8CEMkXf6jSZTwtZz2uy8n2AQ>
    [GameDesignDoc]: <https://docs.google.com/presentation/d/11LprcXs38A70jUiI26nzGr5Y77nBShLgdPsIECx5DG8>
    [AssetPlanning]: <https://docs.google.com/document/d/14x5mPtOM0HXlzkWMwVGTWfxDTHIPWYP4X-BIc84kuS0/edit#>
-   [RetrospectiveVerslagen]: <>
-   [ReviewVerslagen]: <>
+
+   [ReviewVerslagen]: <https://docs.google.com/document/d/1kUA64jdfAfcU1iHSlJt380XAVrWGGe2WbRUrIEDXMBI/edit?usp=drivesdk>
    [Prototype]: <>
+   [RetrospectiveVerslagen]: <>
 
    
