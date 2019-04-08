@@ -5,7 +5,7 @@ using UnityEngine;
 public class CutIngredient : MonoBehaviour
 {
     public GameObject ingredientSmall;
-    [Range(1,10)]
+    [Range(1,100)]
     public int amountToSpawn = 3;
 
     [Range(1,10)]
