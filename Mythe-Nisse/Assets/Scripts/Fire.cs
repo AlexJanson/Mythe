@@ -10,10 +10,8 @@ public class Fire : MonoBehaviour
     private Vector3 startPosition;
     private bool isBurning = false;
     public string fireplaceTag = "Fireplace";
-
-
+    
     private ParticleSystem fireParticles;
-
     public int layerNumber = 13;
 
     private void Awake()

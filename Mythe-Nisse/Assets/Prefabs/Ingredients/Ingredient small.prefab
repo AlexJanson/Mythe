@@ -19,9 +19,9 @@ GameObject:
   - component: {fileID: 2203281668367888016}
   - component: {fileID: 177218946207995762}
   - component: {fileID: 6028745216679609630}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Ingredient small
-  m_TagString: Untagged
+  m_TagString: ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,8 +112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectColor:
     serializedVersion: 2
-    rgba: 4294967295
-  objectType: 0
+    rgba: 4278216447
+  objectType: 1
 --- !u!114 &829714156111574008
 MonoBehaviour:
   m_ObjectHideFlags: 0

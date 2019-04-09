@@ -15,6 +15,9 @@ TagManager:
   - ingredient
   - IngredientSpawn
   - Knife
+  - Pan
+  - Fireplace
+  - FinalPoint
   layers:
   - Default
   - TransparentFX
@@ -29,7 +32,7 @@ TagManager:
   - Player
   - Ingredient
   - Drawers
-  - 
+  - Strikeable
   - 
   - 
   - 
