@@ -1811,6 +1811,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 8520469061846963841, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa972ac7a86b087428eec4d008778e2e, type: 2}
+    - target: {fileID: 982958819873763545, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa972ac7a86b087428eec4d008778e2e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bcfd12207d1dd442bf46ec30e2a2173, type: 3}
 --- !u!1 &459241373
@@ -6860,6 +6870,56 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 8520469061846963841, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520469061846963841, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520469061846963841, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520469061846963841, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
+        type: 3}
+      propertyPath: m_MotionVectors
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8520469061846963841, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa972ac7a86b087428eec4d008778e2e, type: 2}
+    - target: {fileID: 982958819873763545, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 982958819873763545, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 982958819873763545, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 982958819873763545, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
+        type: 3}
+      propertyPath: m_MotionVectors
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 982958819873763545, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa972ac7a86b087428eec4d008778e2e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bcfd12207d1dd442bf46ec30e2a2173, type: 3}
 --- !u!1001 &1668576041
@@ -9568,7 +9628,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 7991
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
@@ -9623,7 +9683,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 14135
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}

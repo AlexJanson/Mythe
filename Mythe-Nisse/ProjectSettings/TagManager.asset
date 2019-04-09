@@ -18,6 +18,7 @@ TagManager:
   - Pan
   - Fireplace
   - FinalPoint
+  - wortel
   layers:
   - Default
   - TransparentFX
