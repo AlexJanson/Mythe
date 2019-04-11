@@ -3205,7 +3205,6 @@ Transform:
   m_Father: {fileID: 1169642119}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &1002978917
 GameObject:
   m_ObjectHideFlags: 0
@@ -3284,8 +3283,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002978917}
   m_CullTransparentMesh: 0
-=======
->>>>>>> origin/feature/MainMenu
 --- !u!1 &1008762492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3571,7 +3568,6 @@ CapsuleCollider:
   m_Height: 0.1506869
   m_Direction: 1
   m_Center: {x: 0.32316414, y: -0.048114594, z: 0.059999995}
-<<<<<<< HEAD
 --- !u!1 &1055070896
 GameObject:
   m_ObjectHideFlags: 0
@@ -3794,8 +3790,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055070896}
   m_CullTransparentMesh: 0
-=======
->>>>>>> origin/feature/MainMenu
 --- !u!1 &1066403936
 GameObject:
   m_ObjectHideFlags: 0
@@ -4384,7 +4378,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &1175831791
 GameObject:
   m_ObjectHideFlags: 0
@@ -4489,8 +4482,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
-=======
->>>>>>> origin/feature/MainMenu
 --- !u!1 &1190074879
 GameObject:
   m_ObjectHideFlags: 0
@@ -4947,7 +4938,6 @@ Transform:
   m_Father: {fileID: 2073216202}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &1302714586
 GameObject:
   m_ObjectHideFlags: 0
@@ -5170,8 +5160,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302714586}
   m_CullTransparentMesh: 0
-=======
->>>>>>> origin/feature/MainMenu
 --- !u!1 &1331763279
 GameObject:
   m_ObjectHideFlags: 0
@@ -5680,7 +5668,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1415474799}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &1444601234
 GameObject:
   m_ObjectHideFlags: 0
@@ -5715,8 +5702,6 @@ Transform:
   m_Father: {fileID: 1889871889}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> origin/feature/MainMenu
 --- !u!1001 &1487807060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8002,7 +7987,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 282684798}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &1911001392
 GameObject:
   m_ObjectHideFlags: 0
@@ -8108,8 +8092,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
-=======
->>>>>>> origin/feature/MainMenu
 --- !u!1 &1925371575
 GameObject:
   m_ObjectHideFlags: 0
@@ -8689,10 +8671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaf4151ca47601d48a36a0a73f41c363, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   TaskListSoupColor: {fileID: 0}
-=======
->>>>>>> origin/feature/MainMenu
 --- !u!4 &6085323224538543186 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6085323224547491860, guid: e3c1d53b984dc394aa43ef4f22c4f868,
