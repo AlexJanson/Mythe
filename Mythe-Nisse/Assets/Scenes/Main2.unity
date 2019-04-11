@@ -356,18 +356,14 @@ PrefabInstance:
       propertyPath: linearMapping
       value: 
       objectReference: {fileID: 14012483}
-<<<<<<< HEAD
     - target: {fileID: 8687942502714669289, guid: 90af572dea89348478c0dd408231d483,
         type: 3}
       propertyPath: m_Layer
       value: 13
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-=======
     m_RemovedComponents:
     - {fileID: 8687942502714669288, guid: 90af572dea89348478c0dd408231d483, type: 3}
     - {fileID: 6137417116607729868, guid: 90af572dea89348478c0dd408231d483, type: 3}
->>>>>>> origin/feature/MainMenu
   m_SourcePrefab: {fileID: 100100000, guid: 90af572dea89348478c0dd408231d483, type: 3}
 --- !u!4 &14012482 stripped
 Transform:
@@ -706,18 +702,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 8687942502714669289, guid: 90af572dea89348478c0dd408231d483,
         type: 3}
       propertyPath: m_Layer
       value: 13
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-=======
     m_RemovedComponents:
     - {fileID: 8687942502714669288, guid: 90af572dea89348478c0dd408231d483, type: 3}
     - {fileID: 6137417116607729868, guid: 90af572dea89348478c0dd408231d483, type: 3}
->>>>>>> origin/feature/MainMenu
   m_SourcePrefab: {fileID: 100100000, guid: 90af572dea89348478c0dd408231d483, type: 3}
 --- !u!4 &191773466 stripped
 Transform:
