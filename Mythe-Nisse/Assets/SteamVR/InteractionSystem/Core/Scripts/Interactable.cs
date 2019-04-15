@@ -345,5 +345,12 @@ namespace Valve.VR.InteractionSystem
             if (highlightHolder != null)
                 Destroy(highlightHolder);
         }
+
+        //private void FixedUpdate()
+        //{
+        //    gameObject.GetComponent<Rigidbody>().MovePosition(transform.position + transform.forward * Time.deltaTime * 0.001f);
+        //}
+
     }
+
 }

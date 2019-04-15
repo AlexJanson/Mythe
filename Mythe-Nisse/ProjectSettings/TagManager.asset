@@ -17,7 +17,11 @@ TagManager:
   - Knife
   - Pan
   - Fireplace
+<<<<<<< HEAD
   - laserPointerPrimitive
+=======
+  - FinalPoint
+>>>>>>> 3c349fbca6845f4a24c5c69294260a2463acb771
   layers:
   - Default
   - TransparentFX
