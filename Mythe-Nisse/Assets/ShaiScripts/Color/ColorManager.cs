@@ -68,7 +68,7 @@ public static class ColorManager
         float percentageB;
 
         var obj1 = Object1.GetComponent<Renderer>().material.GetColor("_Tint");
-        var obj2 = Object2.GetComponent<Renderer>().material.color;
+        var obj2 = Object2.GetComponent<Renderer>().material.GetColor("_Color");
 
         Vector3 obj1RGB = new Vector3(obj1.r, obj1.g, obj1.b);
         Vector3 obj2RGB = new Vector3(obj2.r, obj2.g, obj2.b);
@@ -107,6 +107,8 @@ public static class ColorManager
         {
             Debug.Log("No Match " + "R: " + percentageR + "G: " + percentageG + "B: " + percentageB);
         }
+
+        UiScore.SetText(percentageR, percentageG, percentageB);
 
 
     }
