@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using Valve.VR;
+using Valve.VR.Extras;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(RectTransform))]
@@ -8,13 +9,20 @@ public class VR_UI_Button : MonoBehaviour
     private BoxCollider boxCollider;
     private RectTransform rectTransform;
 
-    private bool canActivate = false;
-    private bool isInStart = false;
-    private bool isInQuit = false;
+    private SteamVR_LaserPointer laserPointer;
 
     private void OnEnable()
     {
         ValidateCollider();
+        laserPointer = GetComponent<SteamVR_LaserPointer>();
+        laserPointer.PointerClick += StartGame;
+        laserPointer.PointerClick += QuitGame;
+    }
+
+    private void OnDisable()
+    {
+        laserPointer.PointerClick -= StartGame;
+        laserPointer.PointerClick -= QuitGame;
     }
 
     private void OnValidate()
@@ -35,56 +43,19 @@ public class VR_UI_Button : MonoBehaviour
         boxCollider.size = rectTransform.sizeDelta;
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void StartGame(object sender, PointerEventArgs e)
     {
-        CheckButton();
-        canActivate = true;
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        CheckButton();
-        canActivate = false;
-    }
-
-    private void CheckButton()
-    {
-        switch (gameObject.name)
+        //SceneManager.LoadScene(sceneName);
+        if (e.target == this.transform)
         {
-            case "Start":
-                isInStart = !isInStart;
-                break;
-            case "Quit":
-                isInQuit = !isInQuit;
-                break;
+            Debug.Log("Now load game");
+            SceneManager.LoadScene("Main");
         }
+        else
+        Debug.Log("Did not hit this object!");
     }
 
-    private void Update()
-    {
-        if (canActivate)
-        {
-            if (SteamVR_Actions._default.InteractUI.GetStateDown(SteamVR_Input_Sources.Any) || Input.GetMouseButtonDown(0))
-            {
-                if (isInStart)
-                {
-                    StartGame("Main");
-                }
-
-                if (isInQuit)
-                {
-                    QuitGame();
-                }
-            }
-        }
-    }
-
-    public void StartGame(string sceneName)
-    {
-        SceneManager.LoadScene(sceneName);
-    }
-
-    public void QuitGame()
+    public void QuitGame(object sender, PointerEventArgs e)
     {
         Application.Quit();
     }
