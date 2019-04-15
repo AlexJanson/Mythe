@@ -1,61 +1,40 @@
 ﻿using UnityEngine;
 using Valve.VR;
-using Valve.VR.Extras;
 using UnityEngine.SceneManagement;
 
-[RequireComponent(typeof(RectTransform))]
+[RequireComponent(typeof(RectTransform), typeof(ScalableBoxCollider))]
 public class VR_UI_Button : MonoBehaviour
 {
-    private BoxCollider boxCollider;
-    private RectTransform rectTransform;
+    public string mainSceneName = "Main";
 
-    private SteamVR_LaserPointer laserPointer;
-
-    private void OnEnable()
+    private void OnTriggerStay(Collider other)
     {
-        ValidateCollider();
-        laserPointer = GetComponent<SteamVR_LaserPointer>();
-        laserPointer.PointerClick += StartGame;
-        laserPointer.PointerClick += QuitGame;
-    }
 
-    private void OnDisable()
-    {
-        laserPointer.PointerClick -= StartGame;
-        laserPointer.PointerClick -= QuitGame;
-    }
-
-    private void OnValidate()
-    {
-        ValidateCollider();
-    }
-
-    private void ValidateCollider()
-    {
-        rectTransform = GetComponent<RectTransform>();
-
-        boxCollider = GetComponent<BoxCollider>();
-        if (boxCollider == null)
+        if (other.gameObject.tag == "laserPointerPrimitive")
         {
-            boxCollider = gameObject.AddComponent<BoxCollider>();
-        }
+            if (SteamVR_Actions._default.InteractUI.stateDown)
+            {
+                switch (name)
+                {
+                    case "Start":
+                        StartGame(mainSceneName);
+                        break;
 
-        boxCollider.size = rectTransform.sizeDelta;
+                    case "Quit":
+                        Application.Quit();
+                break;
+
+                }
+            }
+        }        
     }
 
-    public void StartGame(object sender, PointerEventArgs e)
+    private void StartGame(string sceneName)
     {
-        //SceneManager.LoadScene(sceneName);
-        if (e.target == this.transform)
-        {
-            Debug.Log("Now load game");
-            SceneManager.LoadScene("Main");
-        }
-        else
-        Debug.Log("Did not hit this object!");
+        SceneManager.LoadScene(sceneName);
     }
 
-    public void QuitGame(object sender, PointerEventArgs e)
+    public void QuitGame()
     {
         Application.Quit();
     }
