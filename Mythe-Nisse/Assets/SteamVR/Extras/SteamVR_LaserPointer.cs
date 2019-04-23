@@ -71,6 +71,11 @@ namespace Valve.VR.Extras
             pointer.GetComponent<MeshRenderer>().material = newMaterial;
         }
 
+        private void OnDisable()
+        {
+            Destroy(pointer);
+        }
+
         public virtual void OnPointerIn(PointerEventArgs e)
         {
             if (PointerIn != null)
