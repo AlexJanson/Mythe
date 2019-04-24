@@ -36,17 +36,12 @@ public class VR_UI_Button : MonoBehaviour
                         break;
 
                     case "Quit":
-                        Application.Quit();
+                        QuitGame();
                 break;
 
                 }
             }
         }        
-    }
-
-    private void StartGame(string sceneName)
-    {
-        SceneManager.LoadScene(sceneName);
     }
 
     public void QuitGame()

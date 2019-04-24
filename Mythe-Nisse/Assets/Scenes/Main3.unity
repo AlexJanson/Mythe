@@ -10366,6 +10366,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1808794509444776272, guid: 91043693dc710cd4d8c28d5517214988,
+        type: 3}
+      propertyPath: m_Text
+      value: Serve soup
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134103561547611404, guid: 91043693dc710cd4d8c28d5517214988,
+        type: 3}
+      propertyPath: m_Text
+      value: Make soup
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91043693dc710cd4d8c28d5517214988, type: 3}
 --- !u!1 &1380862675
