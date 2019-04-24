@@ -59,13 +59,11 @@ public class SnapToSnapPoint : MonoBehaviour
         {
             keepOnSnap = true;
             SnapPoint.gameObject.GetComponentInChildren<MeshRenderer>().enabled = false;
-            Debug.Log("begin snap");
             ColorManager.CheckColorMatch(water, note);
         } else if (finalSnapInRange)
         {
             keepOnSnap = true;
             SnapPoint.gameObject.GetComponentInChildren<MeshRenderer>().enabled = false;
-            Debug.Log("begin snap");
         }
     }
 
@@ -76,8 +74,5 @@ public class SnapToSnapPoint : MonoBehaviour
             SnapPoint.gameObject.GetComponentInChildren<MeshRenderer>().enabled = true;
         }
         keepOnSnap = false;
-
-        
-        Debug.Log("stop snap");
     }
 }
