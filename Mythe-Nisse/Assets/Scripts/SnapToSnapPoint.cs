@@ -9,6 +9,11 @@ public class SnapToSnapPoint : MonoBehaviour
     private bool isInSnapRange = false;
     private bool finalSnapInRange = false;
 
+    [SerializeField]
+    private GameObject water;
+    [SerializeField]
+    private GameObject note;
+
     // Update is called once per frame
     void Update()
     {
@@ -55,12 +60,12 @@ public class SnapToSnapPoint : MonoBehaviour
             keepOnSnap = true;
             SnapPoint.gameObject.GetComponentInChildren<MeshRenderer>().enabled = false;
             Debug.Log("begin snap");
+            ColorManager.CheckColorMatch(water, note);
         } else if (finalSnapInRange)
         {
             keepOnSnap = true;
             SnapPoint.gameObject.GetComponentInChildren<MeshRenderer>().enabled = false;
             Debug.Log("begin snap");
-            GetComponent<Pan>().CheckColor();
         }
     }
 

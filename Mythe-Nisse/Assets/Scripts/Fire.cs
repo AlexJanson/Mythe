@@ -8,22 +8,15 @@ public class Fire : MonoBehaviour
 
     private float startTime;
     private Vector3 startPosition;
-    public float distance;
     private bool isBurning = false;
-
+    public string fireplaceTag = "Fireplace";
+    
     private ParticleSystem fireParticles;
-    public ParticleSystem fireplace;
-
-    [SerializeField]
-    private LayerMask layerNumber = 11;
-    private string fireplaceTag = "Fireplace";
-    public GameObject fireplaceObject;
-    private BurningState burningState;
+    public int layerNumber = 13;
 
     private void Awake()
     {
         fireParticles = GetComponent<ParticleSystem>();
-        burningState = GameObject.Find("Fireplace Area").GetComponent<BurningState>();
     }
 
     private void Ignite()
@@ -31,14 +24,6 @@ public class Fire : MonoBehaviour
         var em = fireParticles.emission;
         em.enabled = true;
         isBurning = true;
-    }
-
-    private void ToggleFireplace(bool value)
-    {
-        fireplace = fireplaceObject.GetComponent<ParticleSystem>();
-        var em = fireplace.emission;
-        em.enabled = value;
-        burningState.canCook = value;
     }
 
     private void Extinguish()
@@ -80,12 +65,12 @@ public class Fire : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == fireplaceTag)
+        if (isBurning)
         {
-            if (isBurning == true)
+            if (other.gameObject.tag == fireplaceTag)
             {
-                ToggleFireplace(true);
-                
+                var em = other.GetComponent<ParticleSystem>().emission;
+                em.enabled = true;
             }
         }
     }

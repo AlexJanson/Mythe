@@ -4,20 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - projectile
-  - FxTemporaire
-  - Interactable
-  - Ingredient1
-  - Ingredient2
-  - Ingredient3
-  - Ingredient4
-  - SnapPoint
-  - ingredient
-  - IngredientSpawn
-  - Knife
-  - Pan
   - Fireplace
+  - projectile
+  - ingredient
+  - FxTemporaire
+  - SnapPoint
+  - Knife
   - FinalPoint
+  - Pan
+  - laserPointerPrimitive
   layers:
   - Default
   - TransparentFX
@@ -27,12 +22,12 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
-  - Interactable
-  - Player
-  - Ingredient
-  - Drawers
-  - Strikeable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
