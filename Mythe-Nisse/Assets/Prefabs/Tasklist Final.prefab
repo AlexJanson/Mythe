@@ -19,15 +19,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1348242293311484094, guid: 7171d1dfb014aa9469ef4ea3b9becfd1,
+        type: 3}
+      propertyPath: m_Name
+      value: Tasklist Final
+      objectReference: {fileID: 0}
     - target: {fileID: 1348242293311484095, guid: 7171d1dfb014aa9469ef4ea3b9becfd1,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1348242293311484094, guid: 7171d1dfb014aa9469ef4ea3b9becfd1,
+    - target: {fileID: 5649013346657434178, guid: 7171d1dfb014aa9469ef4ea3b9becfd1,
         type: 3}
-      propertyPath: m_Name
-      value: TaskList (1)
+      propertyPath: m_LocalPosition.x
+      value: -0.397
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672224642925321558, guid: 7171d1dfb014aa9469ef4ea3b9becfd1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7171d1dfb014aa9469ef4ea3b9becfd1, type: 3}
