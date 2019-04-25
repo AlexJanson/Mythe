@@ -5,7 +5,11 @@
       "app_key": "application.generated.unity.mythenisse.exe",
       "launch_type": "url",
       "url": "steam://launch/",
+<<<<<<< HEAD
       "action_manifest_path": "D:\\Unity Projects\\Mythe\\Mythe-Nisse\\actions.json",
+=======
+      "action_manifest_path": "D:\\Own Games\\Mythe\\Mythe\\Mythe-Nisse\\actions.json",
+>>>>>>> origin/artist
       "strings": {
         "en_us": {
           "name": "Mythe-Nisse [Testing]"

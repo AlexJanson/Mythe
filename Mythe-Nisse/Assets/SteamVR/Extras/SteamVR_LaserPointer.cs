@@ -48,7 +48,10 @@ namespace Valve.VR.Extras
             pointer.transform.localScale = new Vector3(thickness, thickness, 100f);
             pointer.transform.localPosition = new Vector3(0f, 0f, 50f);
             pointer.transform.localRotation = Quaternion.identity;
+<<<<<<< HEAD
             pointer.tag = "laserPointerPrimitive";
+=======
+>>>>>>> origin/artist
             BoxCollider collider = pointer.GetComponent<BoxCollider>();
             if (addRigidBody)
             {
@@ -71,11 +74,14 @@ namespace Valve.VR.Extras
             pointer.GetComponent<MeshRenderer>().material = newMaterial;
         }
 
+<<<<<<< HEAD
         private void OnDisable()
         {
             Destroy(pointer);
         }
 
+=======
+>>>>>>> origin/artist
         public virtual void OnPointerIn(PointerEventArgs e)
         {
             if (PointerIn != null)

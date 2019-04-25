@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: b6a9aedc5eeb63542b1d3bf71f6b319e
+=======
+guid: 397131c9d23ee7441a4252d06fdd577e
+>>>>>>> origin/artist
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -16,7 +20,10 @@ ModelImporter:
     3300002: pan1
     4300000: deksel1
     4300002: pan1
+<<<<<<< HEAD
     9500000: //RootNode
+=======
+>>>>>>> origin/artist
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -70,8 +77,13 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+<<<<<<< HEAD
     previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
+=======
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+>>>>>>> origin/artist
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -98,7 +110,11 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+<<<<<<< HEAD
   animationType: 2
+=======
+  animationType: 0
+>>>>>>> origin/artist
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

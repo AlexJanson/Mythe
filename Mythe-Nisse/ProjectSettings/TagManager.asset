@@ -4,6 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - Fireplace
   - projectile
   - ingredient
@@ -13,6 +14,19 @@ TagManager:
   - FinalPoint
   - Pan
   - laserPointerPrimitive
+=======
+  - projectile
+  - FxTemporaire
+  - Interactable
+  - Ingredient1
+  - Ingredient2
+  - Ingredient3
+  - Ingredient4
+  - SnapPoint
+  - ingredient
+  - IngredientSpawn
+  - Knife
+>>>>>>> origin/artist
   layers:
   - Default
   - TransparentFX
@@ -22,11 +36,19 @@ TagManager:
   - UI
   - 
   - 
+<<<<<<< HEAD
   - 
   - 
   - 
   - 
   - 
+=======
+  - PostProcessing
+  - Interactable
+  - Player
+  - Ingredient
+  - Drawers
+>>>>>>> origin/artist
   - 
   - 
   - 

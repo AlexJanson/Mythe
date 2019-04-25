@@ -4,7 +4,11 @@
 	{
 		_Tint("Tint", Color) = (1,1,1,1)
 		_MainTex("Texture", 2D) = "white" {}
+<<<<<<< HEAD
 		_FillAmount("Fill Amount", Range(0.0,1.0)) = 0.45
+=======
+		_FillAmount("Fill Amount", Range(0.45,0.551)) = 0.45
+>>>>>>> origin/artist
 		[HideInInspector] _WobbleX("WobbleX", Range(-1,1)) = 0.0
 		[HideInInspector] _WobbleZ("WobbleZ", Range(-1,1)) = 0.0
 		_TopColor("Top Color", Color) = (1,1,1,1)

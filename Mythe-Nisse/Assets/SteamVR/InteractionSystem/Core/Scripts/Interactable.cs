@@ -345,6 +345,7 @@ namespace Valve.VR.InteractionSystem
             if (highlightHolder != null)
                 Destroy(highlightHolder);
         }
+<<<<<<< HEAD
 
         //private void FixedUpdate()
         //{
@@ -353,4 +354,7 @@ namespace Valve.VR.InteractionSystem
 
     }
 
+=======
+    }
+>>>>>>> origin/artist
 }

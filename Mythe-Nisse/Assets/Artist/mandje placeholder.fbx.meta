@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: fb03a17165b9b6844be869d7916c120b
+=======
+guid: 1d28e66408f7fbd43a580f7cc89fcb98
+>>>>>>> origin/artist
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
