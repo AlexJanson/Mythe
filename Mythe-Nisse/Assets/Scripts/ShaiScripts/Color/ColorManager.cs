@@ -102,10 +102,10 @@ public static class ColorManager
 
         if ((percentageR > percentageOffset) && (percentageG > percentageOffset) && (percentageB > percentageOffset))
         {
-            Debug.Log("Match " + "R: " + percentageR + "G: " + percentageG + "B: " + percentageB);
+            
         }else
         {
-            Debug.Log("No Match " + "R: " + percentageR + "G: " + percentageG + "B: " + percentageB);
+            
         }
 
         UiScore.SetText(percentageR, percentageG, percentageB);
