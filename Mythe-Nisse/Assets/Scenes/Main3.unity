@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 8741528}
   - component: {fileID: 8741530}
   - component: {fileID: 8741529}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: switch_scenes_icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2039,23 +2039,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 348cde15a64ba264d8e6ee20eaec5eb7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2267,7 +2267,7 @@ GameObject:
   - component: {fileID: 341800913}
   - component: {fileID: 341800915}
   - component: {fileID: 341800914}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: locked_icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3468,11 +3468,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carrot
       objectReference: {fileID: 0}
-    - target: {fileID: 6546924855745830860, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 6546924855745332204, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3527,36 +3522,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6546924855745332204, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 25.302
-      objectReference: {fileID: 0}
-    - target: {fileID: 6546924855745332204, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 25.302
-      objectReference: {fileID: 0}
-    - target: {fileID: 6546924855745332204, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 25.302
-      objectReference: {fileID: 0}
-    - target: {fileID: 3305137835152007816, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2985865709084884273, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5099813647150589011, guid: 7bcfd12207d1dd442bf46ec30e2a2173,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bcfd12207d1dd442bf46ec30e2a2173, type: 3}
@@ -4478,7 +4443,7 @@ GameObject:
   - component: {fileID: 597692889}
   - component: {fileID: 597692891}
   - component: {fileID: 597692890}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: TeleportPoint (Unlocked)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4551,7 +4516,7 @@ GameObject:
   - component: {fileID: 635154368}
   - component: {fileID: 635154370}
   - component: {fileID: 635154369}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: teleport_marker_canvas_text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5578,7 +5543,7 @@ GameObject:
   - component: {fileID: 742632776}
   - component: {fileID: 742632775}
   - component: {fileID: 742632774}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: teleport_marker_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7094,7 +7059,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 974410333}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: teleport_marker_icons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7463,7 +7428,7 @@ GameObject:
   - component: {fileID: 1008762496}
   - component: {fileID: 1008762495}
   - component: {fileID: 1008762494}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: teleport_marker_canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8635,7 +8600,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1169642119}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: teleport_marker_lookat_joint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9719,7 +9684,7 @@ GameObject:
   - component: {fileID: 1334186170}
   - component: {fileID: 1334186172}
   - component: {fileID: 1334186171}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: move_location_icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10053,11 +10018,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Onion
       objectReference: {fileID: 0}
-    - target: {fileID: 6546924855745830860, guid: 54d845805209d1840b8c185df80bdcee,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 6546924855745332204, guid: 54d845805209d1840b8c185df80bdcee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10113,8 +10073,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2781826456567212397, guid: 54d845805209d1840b8c185df80bdcee, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54d845805209d1840b8c185df80bdcee, type: 3}
 --- !u!1001 &1453966539
 PrefabInstance:
@@ -16489,7 +16448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c2e732d4ca2bbdb40a698be09484efc3, type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c2e732d4ca2bbdb40a698be09484efc3, type: 3}
       propertyPath: m_TagString
@@ -16870,7 +16829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6a5207a680fd1dc44a825d2df09a2dc8, type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6a5207a680fd1dc44a825d2df09a2dc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19531,6 +19490,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pan
+      objectReference: {fileID: 0}
+    - target: {fileID: 6085323224547491870, guid: e3c1d53b984dc394aa43ef4f22c4f868,
+        type: 3}
+      propertyPath: m_Layer
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6085323224713241636, guid: e3c1d53b984dc394aa43ef4f22c4f868,
+        type: 3}
+      propertyPath: m_Layer
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 6085323224547491860, guid: e3c1d53b984dc394aa43ef4f22c4f868,
         type: 3}
