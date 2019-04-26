@@ -1,7 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public static class ColorManager 
 {
+
+    [SerializeField]
+    private readonly static string mainSceneString = "Main3";
 
     public static void SetColorRGBA(GameObject prefab, byte r, byte g, byte b, byte a)
     {
@@ -102,13 +106,11 @@ public static class ColorManager
 
         if ((percentageR > percentageOffset) && (percentageG > percentageOffset) && (percentageB > percentageOffset))
         {
-            Debug.Log("Match " + "R: " + percentageR + "G: " + percentageG + "B: " + percentageB);
-        }else
-        {
-            Debug.Log("No Match " + "R: " + percentageR + "G: " + percentageG + "B: " + percentageB);
+            //Debug.Log("Match " + "R: " + percentageR + "G: " + percentageG + "B: " + percentageB);
+            SceneManager.LoadScene(mainSceneString);
         }
 
-        UiScore.SetText(percentageR, percentageG, percentageB);
+            UiScore.SetText(percentageR, percentageG, percentageB);
 
 
     }

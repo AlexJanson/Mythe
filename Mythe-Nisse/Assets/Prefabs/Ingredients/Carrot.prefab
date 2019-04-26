@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4994563853355703895}
   - component: {fileID: 7607832151712801982}
   - component: {fileID: 8520469061846963841}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: pPlane2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 361825294183482383}
   - component: {fileID: 9090034240158208148}
   - component: {fileID: 6223637454975714610}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: wortel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 9108626809848155590}
   - component: {fileID: 559356118897147130}
   - component: {fileID: 982958819873763545}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: pPlane1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,10 +249,9 @@ GameObject:
   - component: {fileID: 1330411386742052504}
   - component: {fileID: 8712196731208174232}
   - component: {fileID: 3907775199180596575}
-  - component: {fileID: 2781826456567212397}
   - component: {fileID: 8497758133937277212}
   - component: {fileID: 1430355594}
-  m_Layer: 9
+  m_Layer: 31
   m_Name: Carrot
   m_TagString: ingredient
   m_Icon: {fileID: 0}
@@ -555,60 +554,6 @@ MonoBehaviour:
     type: 3}
   colorSpawnedObject: 1
   destroyOnTargetCollision: 1
---- !u!114 &2781826456567212397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6546924855745830860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7418c7dd8f977d4e969202d3fa7e926, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  poseEditorExpanded: 1
-  blendEditorExpanded: 0
-  poseNames:
-  - sphereSmallPose (MAIN)
-  - HoldByHandle
-  previewLeftHandPrefab: {fileID: 1000013348574242, guid: 638779290bce1af49b356f33dcc6fccf,
-    type: 3}
-  previewRightHandPrefab: {fileID: 1000010304998954, guid: 6def53d002137b747aec0b29551e0e25,
-    type: 3}
-  skeletonMainPose: {fileID: 11400000, guid: ccd16738d1f943640aa2aed1071a3897, type: 2}
-  skeletonAdditionalPoses:
-  - {fileID: 11400000, guid: be72fa6a329cf4e428b38771049bb734, type: 2}
-  showLeftPreview: 0
-  showRightPreview: 0
-  previewLeftInstance: {fileID: 0}
-  previewRightInstance: {fileID: 0}
-  previewPoseSelection: 1
-  blendingBehaviours:
-  - name: New Behaviour
-    enabled: 1
-    influence: 1
-    pose: 1
-    value: 0
-    action_single:
-      actionPath: 
-      needsReinit: 0
-    action_bool:
-      actionPath: 
-      needsReinit: 0
-    smoothingSpeed: 0
-    type: 0
-    useMask: 0
-    mask:
-      palm: 1
-      thumb: 1
-      index: 1
-      middle: 1
-      ring: 1
-      pinky: 1
-      values: 010101010101
-    previewEnabled: 1
-  scale: 1
 --- !u!136 &8497758133937277212
 CapsuleCollider:
   m_ObjectHideFlags: 0
